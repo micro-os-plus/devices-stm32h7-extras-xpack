@@ -1,1 +1,5 @@
 # devices-stm32h7-extras-xpack
+
+This project does not use the `master` branch, please
+switch to the `xpack` branch to get the project files.
+
