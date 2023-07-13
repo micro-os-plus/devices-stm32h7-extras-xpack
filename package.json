@@ -1,0 +1,53 @@
+{
+  "name": "@micro-os-plus/devices-stm32h7-extras",
+  "version": "1.0.0-pre.1",
+  "description": "A source library xPack with µOS++ complementary STM32H7 files",
+  "main": "",
+  "scripts": {
+    "npm-install": "npm install",
+    "pack": "npm pack",
+    "version-patch": "npm version patch",
+    "version-minor": "npm version minor",
+    "postversion": "git push origin --all && git push origin --tags",
+    "git-log": "git log --pretty='%cd * %h %s' --date=short"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/micro-os-plus/devices-stm32h7-extras-xpack.git"
+  },
+  "homepage": "https://github.com/micro-os-plus/devices-stm32h7-extras-xpack",
+  "bugs": {
+    "url": "https://github.com/micro-os-plus/devices-stm32h7-extras-xpack/issues"
+  },
+  "keywords": [
+    "xpack",
+    "stm",
+    "stm32h7",
+    "cortex-m",
+    "micro-os-plus"
+  ],
+  "author": {
+    "name": "Liviu Ionescu",
+    "email": "ilg@livius.net",
+    "url": "https://github.com/ilg-ul"
+  },
+  "license": "MIT",
+  "config": {},
+  "dependencies": {},
+  "bundleDependencies": [],
+  "devDependencies": {},
+  "xpack": {
+    "minimumXpmRequired": "0.16.2",
+    "dependencies": {},
+    "devDependencies": {
+      "@micro-os-plus/build-helper": {
+        "specifier": "^2.11.0",
+        "local": "link",
+        "platforms": "all"
+      }
+    },
+    "properties": {},
+    "actions": {},
+    "buildConfigurations": {}
+  }
+}
