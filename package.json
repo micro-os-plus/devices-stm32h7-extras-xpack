@@ -1,7 +1,7 @@
 {
   "name": "@micro-os-plus/devices-stm32h7-extras",
   "version": "1.0.0-pre.1",
-  "description": "A source library xPack with µOS++ complementary STM32H7 files",
+  "description": "A source code library with µOS++ complementary STM32H7 files",
   "main": "",
   "scripts": {
     "npm-install": "npm install",
